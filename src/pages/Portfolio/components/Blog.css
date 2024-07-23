@@ -1,0 +1,27 @@
+/* Blog styles */
+.blog {
+    padding-top: 50px;
+}
+
+.blog-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+}
+
+.blog-post {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: var(--shadow);
+    transition: var(--transition);
+}
+
+.blog-post:hover {
+    transform: translateY(-5px);
+}
+
+.blog-post h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+}

@@ -1,0 +1,105 @@
+.edu-work-item {
+    display: flex;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: var(--card-bg);
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+    transition: var(--transition);
+}
+
+.edu-work-item:hover {
+    transform: translateY(-5px);
+}
+
+.item-logo {
+    width: 48px;
+    height: 48px;
+    margin-right: 16px;
+    border-radius: 8px;
+    border: 1px solid var(--border-color);
+}
+
+.edu-work-content {
+    flex: 1;
+}
+
+.edu-work-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4px;
+}
+
+.edu-work-header h3 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.date-range {
+    font-size: 0.875rem;
+    color: var(--text-color);
+}
+
+.item-info {
+    margin: 0 0 12px;
+    font-size: 0.85rem;
+    color: var(--text-color);
+    font-weight: 400;
+}
+
+.responsibilities {
+    margin: 0;
+    padding-left: 20px;
+    font-size: 0.85rem;
+    color: var(--text-color);
+    list-style-type: disc;
+    font-weight: 400;
+}
+
+.responsibilities li {
+    margin-bottom: 4px;
+}
+
+.skills-container {
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 5px;
+    column-gap: 8px;
+    justify-content: left;
+    text-align: center;
+}
+
+.skills-container h4 {
+    /* padding-top: 1px; */
+    margin: 0px;
+    font-size: 0.85rem;
+    margin-right: 3px;
+}
+
+.skill-tag {
+    padding: 1px 12px;
+    border-radius: 1.5rem;
+    font-size: 0.75rem;
+    font-weight: 500;
+    transition: var(--transition);
+    border: 0.5px solid var(--accent-color);
+    /* color: var(--bg-color);
+    background-color: var(--accent-color); */
+}
+
+.skill-tag:hover {
+    transform: scale(1.08);
+    background-color: #fff;
+    box-shadow: var(--shadow);
+}
+
+.skill-tag:hover span {
+    background-image: linear-gradient(108deg, #0894ff, #ff2e54 70%, #ff9004);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+}

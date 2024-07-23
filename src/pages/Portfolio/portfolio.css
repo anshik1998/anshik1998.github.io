@@ -1,0 +1,85 @@
+/* Portfolio.css */
+
+.wrapper {
+    padding: 20px;
+    padding-bottom: 150px;
+    transition: margin-left 0.5s ease;
+}
+
+.wrapper.sidebar-visible {
+    margin-left: 300px;
+}
+
+.container {
+    width: 90%;
+    max-width: 768px;
+    margin: auto;
+    padding: 20px;
+}
+
+.section-heading {
+    font-size: 1.5rem;
+    color: var(--accent-color);
+    margin-bottom: 30px;
+    text-align: left;
+    /* position: relative; */
+}
+
+/* .section-heading::after {
+    content: '';
+    display: block;
+    width: 300px;
+    height: 3px;
+    background-color: var(--accent-color);
+    margin: 10px auto;
+} */
+
+
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .wrapper.sidebar-visible {
+        margin-left: 0;
+    }
+
+    .header-content {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .profile-img {
+        margin-bottom: 20px;
+    }
+
+    .education-item {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .school-logo {
+        margin: 0 0 15px;
+    }
+
+    .social-nav {
+        padding: 10px;
+    }
+
+    .social-nav a,
+    .social-nav button {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header-text h1 {
+        font-size: 2em;
+    }
+
+    .header-text p {
+        font-size: 1em;
+    }
+
+    .section-heading {
+        font-size: 1.5em;
+    }
+}

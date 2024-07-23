@@ -1,0 +1,196 @@
+/* Projects styles */
+/* .project-card {
+    background: var(--card-bg);
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: var(--shadow);
+    margin: 10px;
+    text-align: left;
+    transition: var(--transition);
+}
+
+.project-card {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-card h3 {
+    color: var(--accent-color);
+    margin-top: 0;
+}
+
+.technologies {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.tech-tag {
+    background: var(--accent-color);
+    color: var(--bg-color);
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 0.8em;
+} */
+
+.projects-section {
+    padding: 20px 0 10px 0;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.project-card {
+    flex: 0 0 300px;
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    /* padding: 20px; */
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 0.25px solid var(--accent-color);
+}
+
+.project-logo {
+    width: 320px;
+    height: 175px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border: 0.25px solid var(--accent-color);
+    margin-bottom: 5px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.project-title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 1px;
+    line-height: 1.5rem;
+}
+
+.project-date,
+.project-location {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    margin-bottom: -10px;
+}
+
+.project-location {
+    font-weight: 700;
+}
+
+.project-description {
+    /* font-size: 0.95rem; */
+    color: var(--text-color);
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.project-skills {
+    margin-top: 0px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.project-button {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.project-button a {
+    color: var(--bg-color);
+    text-decoration: none;
+}
+
+.project-button:hover {
+    opacity: 0.8;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-button:hover {
+    opacity: 0.8;
+}
+
+.left-button {
+    left: 10px;
+}
+
+.right-button {
+    right: 10px;
+}
+
+@media (min-width: 768px) {
+    .slider-track {
+        display: flex;
+    }
+
+    .project-card {
+        flex: 0 0 calc(50% - 30px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .project-card {
+        flex: 0 0 calc(33.333% - 30px);
+    }
+}

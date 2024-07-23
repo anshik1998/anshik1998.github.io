@@ -1,0 +1,139 @@
+.hackathons-section {
+    padding: 30px 0px 10px 0;
+}
+
+.slider-container {
+    position: relative;
+    overflow: hidden;
+}
+
+.slider-track {
+    display: flex;
+    overflow-x: hidden;
+}
+
+.certificate-card {
+    flex: 0 0 300px;
+    background-color: var(--card-bg);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border: 0.25px solid var(--accent-color);
+}
+
+.certificate-logo {
+    width: 60px;
+    height: 60px;
+    border-radius: 15%;
+    border: 0.25px solid var(--accent-color);
+    margin-bottom: 5px;
+}
+
+.certificate-title {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--accent-color);
+    margin-bottom: 1px;
+    line-height: 1.5rem;
+}
+
+.certificate-date,
+.certificate-location {
+    font-size: 0.9rem;
+    color: var(--text-color);
+    margin-bottom: -10px;
+}
+
+.certificate-location {
+    font-weight: 700;
+}
+
+.certificate-description {
+    /* font-size: 0.95rem; */
+    color: var(--text-color);
+    flex-grow: 1;
+    overflow-y: auto;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.certificate-skills {
+    margin-top: 0px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.certificate-button {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    font-weight: 600;
+    transition: background-color 0.3s ease;
+}
+
+.certificate-button a {
+    color: var(--bg-color);
+    text-decoration: none;
+}
+
+.certificate-button:hover {
+    opacity: 0.8;
+}
+
+.scroll-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.scroll-button:hover {
+    opacity: 0.8;
+}
+
+.left-button {
+    left: 10px;
+}
+
+.right-button {
+    right: 10px;
+}
+
+@media (min-width: 768px) {
+    .slider-track {
+        display: flex;
+    }
+
+    .certificate-card {
+        flex: 0 0 calc(50% - 30px);
+    }
+}
+
+@media (min-width: 1024px) {
+    .certificate-card {
+        flex: 0 0 calc(33.333% - 30px);
+    }
+}

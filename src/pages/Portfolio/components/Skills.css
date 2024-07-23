@@ -1,0 +1,39 @@
+/* Skills styles */
+
+.skills {
+    margin: -10px 0 -30px 0;
+
+    .skills-container {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+
+    .skills-container h4 {
+        font-size: 1rem;
+        text-align: left;
+        width: 200px;
+        margin: 5px 10px 5px 0;
+        flex-shrink: 0;
+    }
+
+    .skills-tags-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+    }
+
+    .skill-tag {
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 5px 10px 5px 0;
+        border-radius: 5px;
+        color: var(--text-color);
+        border: 1px solid var(--border-color);
+        font-size: 0.8rem;
+        font-weight: 400;
+        transition: var(--transition);
+    }
+
+}
