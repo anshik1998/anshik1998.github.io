@@ -1,0 +1,6 @@
+/* src/pages/LeetCode/components/AnimationDemo/index.css */
+.animation-demo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

@@ -1,0 +1,11 @@
+/* src/pages/LeetCode/components/ProblemSelector/index.css */
+.problem-selector {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+.problem-selector select {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+}

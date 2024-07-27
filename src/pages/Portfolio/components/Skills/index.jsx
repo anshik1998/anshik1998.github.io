@@ -1,6 +1,6 @@
-// Skills.jsx
+// Skills
 import React from 'react';
-import './Skills.css';
+import './index.css';
 
 const skillsContainer = (title, skills) => {
     return (

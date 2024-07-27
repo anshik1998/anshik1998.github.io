@@ -1,7 +1,7 @@
-// Header.jsx
+// Header
 import React from 'react';
-import profileImg from "./../../../assets/images/Anshik_Bansal.jpg";
-import './Header.css';
+import profileImg from "./../../../../assets/images/Anshik_Bansal.jpg";
+import './index.css';
 
 const Header = () => (
     <header>

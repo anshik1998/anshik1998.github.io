@@ -1,11 +1,13 @@
+// Certificates
+
 import React, { useEffect, useRef } from 'react';
-import './Certificates.css';
+import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLink } from '@fortawesome/free-solid-svg-icons';
-import logoKaggle from './../../../assets/images/Kaggle_Logo.webp';
-import logoStanford from './../../../assets/images/Stanford_Logo.webp';
-import logoHackerRank from './../../../assets/images/Hackerrank_Logo.png';
-import logoUOM from './../../../assets/images/UOM_Logo.png';
+import logoKaggle from './../../../../assets/images/Kaggle_Logo.webp';
+import logoStanford from './../../../../assets/images/Stanford_Logo.webp';
+import logoHackerRank from './../../../../assets/images/Hackerrank_Logo.png';
+import logoUOM from './../../../../assets/images/UOM_Logo.png';
 
 const CertificateCard = ({ title, date, location, description, skills, logo, verifyLink }) => (
     <div className="certificate-card">

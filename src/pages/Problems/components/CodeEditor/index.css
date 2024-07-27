@@ -1,0 +1,48 @@
+/* src\pages\Problems\components\CodeEditor\index.css */
+.code-editor {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.editor-controls {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background: #f0f0f0;
+}
+
+.editor-controls select,
+.editor-controls button {
+    padding: 5px 10px;
+    font-size: 14px;
+}
+
+.editor-container {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.ace_editor {
+    flex-grow: 1;
+}
+
+.output-container {
+    height: 30%;
+    overflow-y: auto;
+    border-top: 1px solid #ccc;
+    padding: 10px;
+}
+
+.output h3 {
+    margin-bottom: 10px;
+}
+
+.output pre {
+    background-color: #f0f0f0;
+    padding: 10px;
+    border-radius: 5px;
+    white-space: pre-wrap;
+    word-break: break-all;
+}

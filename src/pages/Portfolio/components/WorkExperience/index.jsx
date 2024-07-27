@@ -1,12 +1,12 @@
-// WorkExperience.jsx
+// WorkExperience
 import React from 'react';
-import './WorkExperience.css';
-import EducationAndWorkItem from './EducationAndWorkItem';
-import logoSafeZen from './../../../assets/images/SafeZen_Logo.png';
-import logoFreelancer from './../../../assets/images/Freelancer_Logo.jpeg';
-import logoPaisaBachat from './../../../assets/images/PaisaBachat_Logo.png';
-import logoBechtel from './../../../assets/images/Bechtel_Logo.jpg';
-import bvmdotshLogo from './../../../assets/images/bvmdotsh_Logo.png';
+import './index.css';
+import EducationAndWorkItem from '../EducationAndWorkItem/index.jsx';
+import logoSafeZen from './../../../../assets/images/SafeZen_Logo.png';
+import logoFreelancer from './../../../../assets/images/Freelancer_Logo.jpeg';
+import logoPaisaBachat from './../../../../assets/images/PaisaBachat_Logo.png';
+import logoBechtel from './../../../../assets/images/Bechtel_Logo.jpg';
+import bvmdotshLogo from './../../../../assets/images/bvmdotsh_Logo.png';
 
 const WorkExperience = () => (
     <section className="work-experience">

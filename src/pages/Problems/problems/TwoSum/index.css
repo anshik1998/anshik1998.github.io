@@ -1,0 +1,159 @@
+/* src\pages\Problems\problems\TwoSum\index.css */
+.two-sum-animation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+}
+
+.jars {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.jar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 10px;
+    transition: all 0.3s;
+}
+
+.jar.highlighted {
+    transform: scale(1.1);
+    color: #0066cc;
+}
+
+.jar-icon {
+    font-size: 48px;
+    margin-bottom: 5px;
+}
+
+.jar-value {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.step-description {
+    font-size: 18px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.control-btn {
+    margin: 0 8px;
+    padding: 6px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.control-btn:hover {
+    background-color: #45a049;
+}
+
+.control-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+.speed-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.speed-control label {
+    margin-right: 15px;
+    font-weight: 600;
+}
+
+.speed-control input {
+    margin-right: 15px;
+}
+
+.speed-control input[type="range"] {
+    -webkit-appearance: none;
+    width: 150px;
+    height: 8px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+    border-radius: 4px;
+}
+
+.speed-control input[type="range"]:hover {
+    opacity: 1;
+}
+
+.speed-control input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.speed-control input[type="range"]::-moz-range-thumb {
+    width: 20px;
+    height: 20px;
+    background: #4CAF50;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.user-input {
+    text-align: center;
+}
+
+.user-input input {
+    margin-right: 15px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.user-input button {
+    padding: 6px 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.methods {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    margin-top: 20px;
+    /* column gap auto or 20px min */
+    column-gap: 40px;
+}
+
+.brute-force,
+.efficient {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

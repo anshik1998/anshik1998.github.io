@@ -1,6 +1,6 @@
-// Blog.jsx
+// Blog
 import React from 'react';
-import './Blog.css';
+import './index.css';
 
 const BlogPost = ({ title, content }) => (
     <div className="blog-post">

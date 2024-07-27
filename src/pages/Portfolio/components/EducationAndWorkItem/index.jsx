@@ -1,5 +1,5 @@
 import React from 'react';
-import './EducationAndWorkItem.css';
+import './index.css';
 
 const EducationAndWorkItem = ({ logo, itemSubHeader, itemHeader, location, dateRange, responsibilities, skillTitle, skills }) => (
     <div className="edu-work-item">

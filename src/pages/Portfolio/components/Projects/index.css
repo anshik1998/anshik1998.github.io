@@ -1,5 +1,7 @@
-.hackathons-section {
-    padding: 30px 0px 10px 0;
+/* Projects styles */
+
+.projects-section {
+    padding: 20px 0 10px 0;
 }
 
 .slider-container {
@@ -12,28 +14,37 @@
     overflow-x: hidden;
 }
 
-.certificate-card {
+.project-card {
     flex: 0 0 300px;
     background-color: var(--card-bg);
     border-radius: 10px;
-    padding: 20px;
+    /* padding: 20px; */
     margin: 0 15px;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-between;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border: 0.25px solid var(--accent-color);
 }
 
-.certificate-logo {
-    width: 60px;
-    height: 60px;
-    border-radius: 15%;
+.project-logo {
+    width: 320px;
+    height: 175px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
     border: 0.25px solid var(--accent-color);
     margin-bottom: 5px;
 }
 
-.certificate-title {
+.project-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 5px;
+}
+
+.project-title {
     margin-top: 10px;
     font-size: 1.2rem;
     font-weight: bold;
@@ -42,18 +53,18 @@
     line-height: 1.5rem;
 }
 
-.certificate-date,
-.certificate-location {
+.project-date,
+.project-location {
     font-size: 0.9rem;
     color: var(--text-color);
     margin-bottom: -10px;
 }
 
-.certificate-location {
+.project-location {
     font-weight: 700;
 }
 
-.certificate-description {
+.project-description {
     /* font-size: 0.95rem; */
     color: var(--text-color);
     flex-grow: 1;
@@ -62,7 +73,7 @@
     font-size: 0.9rem;
 }
 
-.certificate-skills {
+.project-skills {
     margin-top: 0px;
     font-size: 0.9rem;
     color: var(--text-color);
@@ -71,7 +82,15 @@
     flex-wrap: wrap;
 }
 
-.certificate-button {
+.project-link {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.project-button {
     background-color: var(--accent-color);
     color: var(--bg-color);
     border: none;
@@ -83,12 +102,12 @@
     transition: background-color 0.3s ease;
 }
 
-.certificate-button a {
+.project-button a {
     color: var(--bg-color);
     text-decoration: none;
 }
 
-.certificate-button:hover {
+.project-button:hover {
     opacity: 0.8;
 }
 
@@ -127,13 +146,13 @@
         display: flex;
     }
 
-    .certificate-card {
+    .project-card {
         flex: 0 0 calc(50% - 30px);
     }
 }
 
 @media (min-width: 1024px) {
-    .certificate-card {
+    .project-card {
         flex: 0 0 calc(33.333% - 30px);
     }
 }

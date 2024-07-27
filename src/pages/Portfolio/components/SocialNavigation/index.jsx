@@ -1,9 +1,9 @@
-// SocialNavigation.jsx
+// SocialNavigation
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faHouse, faSun, faMoon } from '@fortawesome/free-solid-svg-icons';
-import './SocialNavigation.css';
+import './index.css';
 
 const ThemeToggle = ({ isDark, toggleTheme }) => (
     <button onClick={toggleTheme} className="theme-toggle">

@@ -1,10 +1,10 @@
 import React, { useEffect, useRef } from 'react';
-import './Projects.css';
+import './index.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLink } from '@fortawesome/free-solid-svg-icons';
-import Project1 from './../../../assets/images/Project_1.PNG';
-import Project2 from './../../../assets/images/Project_2.PNG';
-import Project3 from './../../../assets/images/Project_3.PNG';
+import Project1 from './../../../../assets/images/Project_1.PNG';
+import Project2 from './../../../../assets/images/Project_2.PNG';
+import Project3 from './../../../../assets/images/Project_3.PNG';
 
 const ProjectCard = ({ title, date, location, description, skills, logo, link }) => (
     <div className="project-card">

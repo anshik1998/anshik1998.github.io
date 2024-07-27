@@ -1,0 +1,38 @@
+/* src/pages/LeetCode/components/ProblemSolver/index.css */
+.problem-solver {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #ccc;
+}
+
+.problem-solver textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-family: monospace;
+}
+
+.problem-solver button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.results {
+    margin-top: 20px;
+}
+
+.test-case {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.test-case.passed {
+    background-color: #e6ffe6;
+}
+
+.test-case.failed {
+    background-color: #ffe6e6;
+}

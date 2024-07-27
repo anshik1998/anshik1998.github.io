@@ -1,11 +1,11 @@
-// Education.jsx
+// Education
 import React from 'react';
-import logoABIT from './../../../assets/images/ABIT_Logo.jpg';
-import logoIEI from './../../../assets/images/IEI_Logo.png';
-import logoMAIT from './../../../assets/images/MAIT_Logo.png';
-import logoIEMS from './../../../assets/images/IEMS_Logo.png';
-import EducationAndWorkItem from './EducationAndWorkItem';
-import './Education.css';
+import logoABIT from './../../../../assets/images/ABIT_Logo.jpg';
+import logoIEI from './../../../../assets/images/IEI_Logo.png';
+import logoMAIT from './../../../../assets/images/MAIT_Logo.png';
+import logoIEMS from './../../../../assets/images/IEMS_Logo.png';
+import EducationAndWorkItem from './../EducationAndWorkItem/index.jsx';
+import './index.css';
 
 const Education = () => (
     <section className="education">

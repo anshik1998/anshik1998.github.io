@@ -1,0 +1,23 @@
+/* src/pages/LeetCode/components/ProblemDescription/index.css */
+.problem-description {
+    max-width: 800px;
+    margin: 0 15px;
+    line-height: 1.6;
+}
+
+.problem-description h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.problem-description pre {
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 10px;
+    white-space: pre-line;
+    word-break: break-all;
+}
+
+.problem-selection {
+    margin: 15px;
+}

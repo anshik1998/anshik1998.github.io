@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
-import "./Sidebar.css";
-import SocialNavigation from "./SocialNavigation";
+import "./index.css";
+import SocialNavigation from "../SocialNavigation";
 import { faThumbTack } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { Link } from 'react-router-dom';
 
 
 const SidebarPanel = ({ onVisibilityChange, userName = "Guest" }) => {
@@ -80,6 +81,8 @@ const SidebarPanel = ({ onVisibilityChange, userName = "Guest" }) => {
                     </div>
                     <nav className="menu-section">
                         <ul>
+                            <li><Link to="/">About Me</Link></li>
+                            <li><Link to="/problem-solving">Problem Solving</Link></li>
                             {/* <li><a href="/#work-experience">Work Experience</a></li>
                             <li><a href="#education">Education</a></li>
                             <li><a href="#skills">Skills</a></li>
