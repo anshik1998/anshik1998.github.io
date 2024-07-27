@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.c048deb8.css",
-    "main.js": "/static/js/main.2879c19c.js",
+    "main.css": "/static/css/main.b983c457.css",
+    "main.js": "/static/js/main.8b3b0e5e.js",
     "static/media/bvmdotsh_Logo.png": "/static/media/bvmdotsh_Logo.cb1cc7578038159cb82d.png",
     "static/media/ABIT_Logo.jpg": "/static/media/ABIT_Logo.0d0b04e10efb93414893.jpg",
     "static/media/Project_3.PNG": "/static/media/Project_3.3f9e8ba5b6e710c7c96d.PNG",
@@ -18,11 +18,11 @@
     "static/media/Freelancer_Logo.jpeg": "/static/media/Freelancer_Logo.d8bc4b8323c388322885.jpeg",
     "static/media/Kaggle_Logo.webp": "/static/media/Kaggle_Logo.bffac739f114e6263d12.webp",
     "index.html": "/index.html",
-    "main.c048deb8.css.map": "/static/css/main.c048deb8.css.map",
-    "main.2879c19c.js.map": "/static/js/main.2879c19c.js.map"
+    "main.b983c457.css.map": "/static/css/main.b983c457.css.map",
+    "main.8b3b0e5e.js.map": "/static/js/main.8b3b0e5e.js.map"
   },
   "entrypoints": [
-    "static/css/main.c048deb8.css",
-    "static/js/main.2879c19c.js"
+    "static/css/main.b983c457.css",
+    "static/js/main.8b3b0e5e.js"
   ]
 }
